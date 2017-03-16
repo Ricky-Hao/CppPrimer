@@ -8,7 +8,7 @@
             "program": "${workspaceRoot}/.build/main.exe",
             "symbolSearchPath": "${workspaceRoot};${workspaceRoot}/.build",
             "args": [],
-            "stopAtEntry": false,
+            "stopAtEntry": true,
             "cwd": "${workspaceRoot}",
             "environment": [],
             "externalConsole": true

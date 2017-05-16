@@ -1,0 +1,25 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "taskName": "Build",
+            "command": "./.vscode/build.bat",
+            "args": [
+                "${workspaceRoot}","${relativeFile}","${fileBasenameNoExtension}","${fileDirname}"
+            ],
+            "isShellCommand": true,
+            "showOutput": "always"
+        },
+        {
+            "taskName": "Echo",
+            "command": "echo",
+            "args": [
+                "${fileDirname}"
+            ],
+            "isShellCommand":true,
+            "showOutput": "always"
+        }
+    ]
+}
